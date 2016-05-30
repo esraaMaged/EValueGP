@@ -19,6 +19,9 @@
 		8C278A9F1CEF82CA00AF8CEE /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C278A9E1CEF82CA00AF8CEE /* LeftViewController.swift */; };
 		8C278AA11CEF9CD800AF8CEE /* MyCustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */; };
 		8C63CBD61CF2EBF5009159AF /* rapanzel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */; };
+		8C7D34F91CFCA5910099305C /* StoryboardFADY.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */; };
+		8C7D34FB1CFCA5AC0099305C /* StoryboardSALMA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */; };
+		8C7D34FD1CFCA5BC0099305C /* StoryboardFATIMA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +61,10 @@
 		8C1978CC1CEDAB91005FC5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C278A9E1CEF82CA00AF8CEE /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomViewCell.swift; sourceTree = "<group>"; };
-		8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rapanzel.jpeg; path = ../../rapanzel.jpeg; sourceTree = "<group>"; };
+		8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rapanzel.jpeg; path = ../rapanzel.jpeg; sourceTree = "<group>"; };
+		8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardFADY.storyboard; sourceTree = "<group>"; };
+		8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardSALMA.storyboard; sourceTree = "<group>"; };
+		8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardFATIMA.storyboard; sourceTree = "<group>"; };
 		B5FAAD81A3CF27A2EF885BB5 /* Pods_myNavDrawerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myNavDrawerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5FADBA3E8915F337FE15E9 /* Pods-myNavDrawer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myNavDrawer.release.xcconfig"; path = "Pods/Target Support Files/Pods-myNavDrawer/Pods-myNavDrawer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +99,8 @@
 		8C19789E1CEDAB91005FC5CD = {
 			isa = PBXGroup;
 			children = (
+				8C7D34F71CFCA5590099305C /* storyboards */,
+				8C7D34F61CFCA5440099305C /* pics */,
 				8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */,
 				8C1978A91CEDAB91005FC5CD /* myNavDrawer */,
 				8C1978BE1CEDAB91005FC5CD /* myNavDrawerTests */,
@@ -116,7 +124,6 @@
 		8C1978A91CEDAB91005FC5CD /* myNavDrawer */ = {
 			isa = PBXGroup;
 			children = (
-				8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */,
 				8C1978AA1CEDAB91005FC5CD /* AppDelegate.swift */,
 				8C1978AC1CEDAB91005FC5CD /* ViewController.swift */,
 				8C1978AE1CEDAB91005FC5CD /* Main.storyboard */,
@@ -144,6 +151,24 @@
 				8C1978CC1CEDAB91005FC5CD /* Info.plist */,
 			);
 			path = myNavDrawerUITests;
+			sourceTree = "<group>";
+		};
+		8C7D34F61CFCA5440099305C /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */,
+			);
+			name = pics;
+			sourceTree = "<group>";
+		};
+		8C7D34F71CFCA5590099305C /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */,
+				8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */,
+				8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */,
+			);
+			name = storyboards;
 			sourceTree = "<group>";
 		};
 		CED7E1A6A0F63528FEC1E1FB /* Frameworks */ = {
@@ -277,6 +302,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C1978B51CEDAB91005FC5CD /* LaunchScreen.storyboard in Resources */,
+				8C7D34F91CFCA5910099305C /* StoryboardFADY.storyboard in Resources */,
+				8C7D34FD1CFCA5BC0099305C /* StoryboardFATIMA.storyboard in Resources */,
+				8C7D34FB1CFCA5AC0099305C /* StoryboardSALMA.storyboard in Resources */,
 				8C1978B21CEDAB91005FC5CD /* Assets.xcassets in Resources */,
 				8C63CBD61CF2EBF5009159AF /* rapanzel.jpeg in Resources */,
 				8C1978B01CEDAB91005FC5CD /* Main.storyboard in Resources */,

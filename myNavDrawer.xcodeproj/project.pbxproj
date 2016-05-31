@@ -18,6 +18,8 @@
 		8C1978CB1CEDAB91005FC5CD /* myNavDrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1978CA1CEDAB91005FC5CD /* myNavDrawerUITests.swift */; };
 		8C278A9F1CEF82CA00AF8CEE /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C278A9E1CEF82CA00AF8CEE /* LeftViewController.swift */; };
 		8C278AA11CEF9CD800AF8CEE /* MyCustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */; };
+		8C63CBD61CF2EBF5009159AF /* rapanzel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */; };
+		8C661A641CFD996700656971 /* splash.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C661A631CFD996700656971 /* splash.jpeg */; };
 		8C7D34F91CFCA5910099305C /* StoryboardFADY.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */; };
 		8C7D34FB1CFCA5AC0099305C /* StoryboardSALMA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */; };
 		8C7D34FD1CFCA5BC0099305C /* StoryboardFATIMA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */; };
@@ -78,6 +80,8 @@
 		8C1978CC1CEDAB91005FC5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C278A9E1CEF82CA00AF8CEE /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomViewCell.swift; sourceTree = "<group>"; };
+		8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rapanzel.jpeg; path = ../rapanzel.jpeg; sourceTree = "<group>"; };
+		8C661A631CFD996700656971 /* splash.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = splash.jpeg; path = ../splash.jpeg; sourceTree = "<group>"; };
 		8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardFADY.storyboard; sourceTree = "<group>"; };
 		8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardSALMA.storyboard; sourceTree = "<group>"; };
 		8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardFATIMA.storyboard; sourceTree = "<group>"; };
@@ -192,6 +196,8 @@
 		8C7D34F61CFCA5440099305C /* pics */ = {
 			isa = PBXGroup;
 			children = (
+				8C661A631CFD996700656971 /* splash.jpeg */,
+				8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */,
 			);
 			name = pics;
 			sourceTree = "<group>";
@@ -370,6 +376,7 @@
 			files = (
 				8C1978B51CEDAB91005FC5CD /* LaunchScreen.storyboard in Resources */,
 				8C7D34F91CFCA5910099305C /* StoryboardFADY.storyboard in Resources */,
+				8C661A641CFD996700656971 /* splash.jpeg in Resources */,
 				8C7D34FD1CFCA5BC0099305C /* StoryboardFATIMA.storyboard in Resources */,
 				C7F8175F1CFDCC840086A9DC /* FadyHany.storyboard in Resources */,
 				8C7D34FB1CFCA5AC0099305C /* StoryboardSALMA.storyboard in Resources */,

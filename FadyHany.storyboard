@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="NzG-9l-mj5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="xgM-vj-YXy">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -59,9 +59,6 @@
                                 <rect key="frame" x="77" y="515" width="166" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Forgot My Password"/>
-                                <connections>
-                                    <segue destination="xgM-vj-YXy" kind="push" identifier="myForgotPasswordSegue" id="HMg-s7-aez"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9X-Xp-0aD">
                                 <rect key="frame" x="123" y="435" width="75" height="32"/>
@@ -150,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SDW-Cm-r6y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="692" y="-401"/>
+            <point key="canvasLocation" x="512" y="-385"/>
         </scene>
         <!--Create Account Screen-->
         <scene sceneID="Ubo-H3-i3m">
@@ -177,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Slq-uc-3qp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1782" y="-401"/>
+            <point key="canvasLocation" x="1778" y="-401"/>
         </scene>
         <!--Child User Screen-->
         <scene sceneID="ohN-PD-ebD">
@@ -310,7 +307,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4q4-zz-gQJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1096" y="-401"/>
+            <point key="canvasLocation" x="1088" y="-401"/>
         </scene>
         <!--Password Validation Screen-->
         <scene sceneID="0VP-8N-hEe">
@@ -392,7 +389,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kyu-pz-jCH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1447" y="-401"/>
+            <point key="canvasLocation" x="1433" y="-401"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ixi-wB-xlR">

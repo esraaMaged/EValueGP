@@ -18,10 +18,27 @@
 		8C1978CB1CEDAB91005FC5CD /* myNavDrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1978CA1CEDAB91005FC5CD /* myNavDrawerUITests.swift */; };
 		8C278A9F1CEF82CA00AF8CEE /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C278A9E1CEF82CA00AF8CEE /* LeftViewController.swift */; };
 		8C278AA11CEF9CD800AF8CEE /* MyCustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */; };
-		8C63CBD61CF2EBF5009159AF /* rapanzel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */; };
 		8C7D34F91CFCA5910099305C /* StoryboardFADY.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */; };
 		8C7D34FB1CFCA5AC0099305C /* StoryboardSALMA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */; };
 		8C7D34FD1CFCA5BC0099305C /* StoryboardFATIMA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */; };
+		C7F8173D1CFDC3E80086A9DC /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8173C1CFDC3E80086A9DC /* Category.swift */; };
+		C7F8173F1CFDC4030086A9DC /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8173E1CFDC4030086A9DC /* UserInfo.swift */; };
+		C7F817411CFDC40C0086A9DC /* UserTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F817401CFDC40C0086A9DC /* UserTask.swift */; };
+		C7F817431CFDC4170086A9DC /* TaskInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F817421CFDC4170086A9DC /* TaskInfo.swift */; };
+		C7F817451CFDC4240086A9DC /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F817441CFDC4240086A9DC /* Type.swift */; };
+		C7F817471CFDC4700086A9DC /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F817461CFDC4700086A9DC /* LoginScreen.swift */; };
+		C7F817491CFDC4820086A9DC /* UserProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F817481CFDC4820086A9DC /* UserProfileScreen.swift */; };
+		C7F8174B1CFDC4910086A9DC /* SimpleUserScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8174A1CFDC4910086A9DC /* SimpleUserScreen.swift */; };
+		C7F8174D1CFDC4A40086A9DC /* MileStoneEditTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8174C1CFDC4A40086A9DC /* MileStoneEditTable.swift */; };
+		C7F8174F1CFDC4B30086A9DC /* MileStoneEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8174E1CFDC4B30086A9DC /* MileStoneEditView.swift */; };
+		C7F817511CFDC4BC0086A9DC /* PasswordValidationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F817501CFDC4BC0086A9DC /* PasswordValidationScreen.swift */; };
+		C7F817531CFDC4D80086A9DC /* ForgotMyPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F817521CFDC4D80086A9DC /* ForgotMyPasswordScreen.swift */; };
+		C7F817551CFDC4E40086A9DC /* EditUserTaskScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F817541CFDC4E40086A9DC /* EditUserTaskScreen.swift */; };
+		C7F817571CFDC4EB0086A9DC /* EditUserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F817561CFDC4EB0086A9DC /* EditUserProfileController.swift */; };
+		C7F817591CFDC4F30086A9DC /* EditPasswordPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F817581CFDC4F30086A9DC /* EditPasswordPasswordScreen.swift */; };
+		C7F8175B1CFDC5760086A9DC /* CreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8175A1CFDC5760086A9DC /* CreateAccountScreen.swift */; };
+		C7F8175D1CFDCBD70086A9DC /* ChildUserScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8175C1CFDCBD70086A9DC /* ChildUserScreen.swift */; };
+		C7F8175F1CFDCC840086A9DC /* FadyHany.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F8175E1CFDCC840086A9DC /* FadyHany.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,11 +78,28 @@
 		8C1978CC1CEDAB91005FC5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C278A9E1CEF82CA00AF8CEE /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomViewCell.swift; sourceTree = "<group>"; };
-		8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rapanzel.jpeg; path = ../rapanzel.jpeg; sourceTree = "<group>"; };
 		8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardFADY.storyboard; sourceTree = "<group>"; };
 		8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardSALMA.storyboard; sourceTree = "<group>"; };
 		8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardFATIMA.storyboard; sourceTree = "<group>"; };
 		B5FAAD81A3CF27A2EF885BB5 /* Pods_myNavDrawerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myNavDrawerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F8173C1CFDC3E80086A9DC /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C7F8173E1CFDC4030086A9DC /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		C7F817401CFDC40C0086A9DC /* UserTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTask.swift; sourceTree = "<group>"; };
+		C7F817421CFDC4170086A9DC /* TaskInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskInfo.swift; sourceTree = "<group>"; };
+		C7F817441CFDC4240086A9DC /* Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		C7F817461CFDC4700086A9DC /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		C7F817481CFDC4820086A9DC /* UserProfileScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileScreen.swift; sourceTree = "<group>"; };
+		C7F8174A1CFDC4910086A9DC /* SimpleUserScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleUserScreen.swift; sourceTree = "<group>"; };
+		C7F8174C1CFDC4A40086A9DC /* MileStoneEditTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MileStoneEditTable.swift; sourceTree = "<group>"; };
+		C7F8174E1CFDC4B30086A9DC /* MileStoneEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MileStoneEditView.swift; sourceTree = "<group>"; };
+		C7F817501CFDC4BC0086A9DC /* PasswordValidationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordValidationScreen.swift; sourceTree = "<group>"; };
+		C7F817521CFDC4D80086A9DC /* ForgotMyPasswordScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotMyPasswordScreen.swift; sourceTree = "<group>"; };
+		C7F817541CFDC4E40086A9DC /* EditUserTaskScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditUserTaskScreen.swift; sourceTree = "<group>"; };
+		C7F817561CFDC4EB0086A9DC /* EditUserProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditUserProfileController.swift; sourceTree = "<group>"; };
+		C7F817581CFDC4F30086A9DC /* EditPasswordPasswordScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPasswordPasswordScreen.swift; sourceTree = "<group>"; };
+		C7F8175A1CFDC5760086A9DC /* CreateAccountScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountScreen.swift; sourceTree = "<group>"; };
+		C7F8175C1CFDCBD70086A9DC /* ChildUserScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildUserScreen.swift; sourceTree = "<group>"; };
+		C7F8175E1CFDCC840086A9DC /* FadyHany.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FadyHany.storyboard; sourceTree = "<group>"; };
 		FE5FADBA3E8915F337FE15E9 /* Pods-myNavDrawer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myNavDrawer.release.xcconfig"; path = "Pods/Target Support Files/Pods-myNavDrawer/Pods-myNavDrawer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +133,8 @@
 		8C19789E1CEDAB91005FC5CD = {
 			isa = PBXGroup;
 			children = (
+				C7F8173B1CFDC3D90086A9DC /* Pojos */,
+				C7F8173A1CFDC3AB0086A9DC /* ViewControllers */,
 				8C7D34F71CFCA5590099305C /* storyboards */,
 				8C7D34F61CFCA5440099305C /* pics */,
 				8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */,
@@ -156,7 +192,6 @@
 		8C7D34F61CFCA5440099305C /* pics */ = {
 			isa = PBXGroup;
 			children = (
-				8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */,
 			);
 			name = pics;
 			sourceTree = "<group>";
@@ -164,11 +199,43 @@
 		8C7D34F71CFCA5590099305C /* storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				C7F8175E1CFDCC840086A9DC /* FadyHany.storyboard */,
 				8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */,
 				8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */,
 				8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */,
 			);
 			name = storyboards;
+			sourceTree = "<group>";
+		};
+		C7F8173A1CFDC3AB0086A9DC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8175C1CFDCBD70086A9DC /* ChildUserScreen.swift */,
+				C7F8175A1CFDC5760086A9DC /* CreateAccountScreen.swift */,
+				C7F817581CFDC4F30086A9DC /* EditPasswordPasswordScreen.swift */,
+				C7F817561CFDC4EB0086A9DC /* EditUserProfileController.swift */,
+				C7F817541CFDC4E40086A9DC /* EditUserTaskScreen.swift */,
+				C7F817521CFDC4D80086A9DC /* ForgotMyPasswordScreen.swift */,
+				C7F817501CFDC4BC0086A9DC /* PasswordValidationScreen.swift */,
+				C7F8174E1CFDC4B30086A9DC /* MileStoneEditView.swift */,
+				C7F8174C1CFDC4A40086A9DC /* MileStoneEditTable.swift */,
+				C7F8174A1CFDC4910086A9DC /* SimpleUserScreen.swift */,
+				C7F817481CFDC4820086A9DC /* UserProfileScreen.swift */,
+				C7F817461CFDC4700086A9DC /* LoginScreen.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C7F8173B1CFDC3D90086A9DC /* Pojos */ = {
+			isa = PBXGroup;
+			children = (
+				C7F817441CFDC4240086A9DC /* Type.swift */,
+				C7F817421CFDC4170086A9DC /* TaskInfo.swift */,
+				C7F817401CFDC40C0086A9DC /* UserTask.swift */,
+				C7F8173E1CFDC4030086A9DC /* UserInfo.swift */,
+				C7F8173C1CFDC3E80086A9DC /* Category.swift */,
+			);
+			name = Pojos;
 			sourceTree = "<group>";
 		};
 		CED7E1A6A0F63528FEC1E1FB /* Frameworks */ = {
@@ -304,9 +371,9 @@
 				8C1978B51CEDAB91005FC5CD /* LaunchScreen.storyboard in Resources */,
 				8C7D34F91CFCA5910099305C /* StoryboardFADY.storyboard in Resources */,
 				8C7D34FD1CFCA5BC0099305C /* StoryboardFATIMA.storyboard in Resources */,
+				C7F8175F1CFDCC840086A9DC /* FadyHany.storyboard in Resources */,
 				8C7D34FB1CFCA5AC0099305C /* StoryboardSALMA.storyboard in Resources */,
 				8C1978B21CEDAB91005FC5CD /* Assets.xcassets in Resources */,
-				8C63CBD61CF2EBF5009159AF /* rapanzel.jpeg in Resources */,
 				8C1978B01CEDAB91005FC5CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,10 +492,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F817431CFDC4170086A9DC /* TaskInfo.swift in Sources */,
+				C7F817591CFDC4F30086A9DC /* EditPasswordPasswordScreen.swift in Sources */,
+				C7F817531CFDC4D80086A9DC /* ForgotMyPasswordScreen.swift in Sources */,
 				8C278A9F1CEF82CA00AF8CEE /* LeftViewController.swift in Sources */,
+				C7F8174D1CFDC4A40086A9DC /* MileStoneEditTable.swift in Sources */,
+				C7F8173D1CFDC3E80086A9DC /* Category.swift in Sources */,
 				8C278AA11CEF9CD800AF8CEE /* MyCustomViewCell.swift in Sources */,
+				C7F817411CFDC40C0086A9DC /* UserTask.swift in Sources */,
 				8C1978AD1CEDAB91005FC5CD /* ViewController.swift in Sources */,
+				C7F8175D1CFDCBD70086A9DC /* ChildUserScreen.swift in Sources */,
+				C7F8175B1CFDC5760086A9DC /* CreateAccountScreen.swift in Sources */,
+				C7F817551CFDC4E40086A9DC /* EditUserTaskScreen.swift in Sources */,
+				C7F817491CFDC4820086A9DC /* UserProfileScreen.swift in Sources */,
+				C7F8173F1CFDC4030086A9DC /* UserInfo.swift in Sources */,
 				8C1978AB1CEDAB91005FC5CD /* AppDelegate.swift in Sources */,
+				C7F817571CFDC4EB0086A9DC /* EditUserProfileController.swift in Sources */,
+				C7F817451CFDC4240086A9DC /* Type.swift in Sources */,
+				C7F8174B1CFDC4910086A9DC /* SimpleUserScreen.swift in Sources */,
+				C7F817471CFDC4700086A9DC /* LoginScreen.swift in Sources */,
+				C7F817511CFDC4BC0086A9DC /* PasswordValidationScreen.swift in Sources */,
+				C7F8174F1CFDC4B30086A9DC /* MileStoneEditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +656,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myNavDrawer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c.myNavDrawer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -584,6 +669,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myNavDrawer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c.myNavDrawer;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -18,8 +18,6 @@
 		8C1978CB1CEDAB91005FC5CD /* myNavDrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1978CA1CEDAB91005FC5CD /* myNavDrawerUITests.swift */; };
 		8C278A9F1CEF82CA00AF8CEE /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C278A9E1CEF82CA00AF8CEE /* LeftViewController.swift */; };
 		8C278AA11CEF9CD800AF8CEE /* MyCustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */; };
-		8C63CBD61CF2EBF5009159AF /* rapanzel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */; };
-		8C661A641CFD996700656971 /* splash.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C661A631CFD996700656971 /* splash.jpeg */; };
 		8C7D34F91CFCA5910099305C /* StoryboardFADY.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */; };
 		8C7D34FB1CFCA5AC0099305C /* StoryboardSALMA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */; };
 		8C7D34FD1CFCA5BC0099305C /* StoryboardFATIMA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */; };
@@ -41,6 +39,8 @@
 		C7F8175B1CFDC5760086A9DC /* CreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8175A1CFDC5760086A9DC /* CreateAccountScreen.swift */; };
 		C7F8175D1CFDCBD70086A9DC /* ChildUserScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8175C1CFDCBD70086A9DC /* ChildUserScreen.swift */; };
 		C7F8175F1CFDCC840086A9DC /* FadyHany.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F8175E1CFDCC840086A9DC /* FadyHany.storyboard */; };
+		C7F9983C1CFDEEBF0011FF9D /* View&EditProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F9983B1CFDEEBF0011FF9D /* View&EditProfile.storyboard */; };
+		C7F9983E1CFDF6660011FF9D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F9983D1CFDF6660011FF9D /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,8 +80,6 @@
 		8C1978CC1CEDAB91005FC5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C278A9E1CEF82CA00AF8CEE /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomViewCell.swift; sourceTree = "<group>"; };
-		8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rapanzel.jpeg; path = ../rapanzel.jpeg; sourceTree = "<group>"; };
-		8C661A631CFD996700656971 /* splash.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = splash.jpeg; path = ../splash.jpeg; sourceTree = "<group>"; };
 		8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardFADY.storyboard; sourceTree = "<group>"; };
 		8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardSALMA.storyboard; sourceTree = "<group>"; };
 		8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardFATIMA.storyboard; sourceTree = "<group>"; };
@@ -104,6 +102,8 @@
 		C7F8175A1CFDC5760086A9DC /* CreateAccountScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountScreen.swift; sourceTree = "<group>"; };
 		C7F8175C1CFDCBD70086A9DC /* ChildUserScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildUserScreen.swift; sourceTree = "<group>"; };
 		C7F8175E1CFDCC840086A9DC /* FadyHany.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FadyHany.storyboard; sourceTree = "<group>"; };
+		C7F9983B1CFDEEBF0011FF9D /* View&EditProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "View&EditProfile.storyboard"; sourceTree = "<group>"; };
+		C7F9983D1CFDF6660011FF9D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		FE5FADBA3E8915F337FE15E9 /* Pods-myNavDrawer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myNavDrawer.release.xcconfig"; path = "Pods/Target Support Files/Pods-myNavDrawer/Pods-myNavDrawer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F9983E1CFDF6660011FF9D /* AssetsLibrary.framework in Frameworks */,
 				71F7BCA82A51607667CB6B47 /* Pods_myNavDrawer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +141,6 @@
 				C7F8173B1CFDC3D90086A9DC /* Pojos */,
 				C7F8173A1CFDC3AB0086A9DC /* ViewControllers */,
 				8C7D34F71CFCA5590099305C /* storyboards */,
-				8C7D34F61CFCA5440099305C /* pics */,
 				8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */,
 				8C1978A91CEDAB91005FC5CD /* myNavDrawer */,
 				8C1978BE1CEDAB91005FC5CD /* myNavDrawerTests */,
@@ -193,15 +193,6 @@
 			path = myNavDrawerUITests;
 			sourceTree = "<group>";
 		};
-		8C7D34F61CFCA5440099305C /* pics */ = {
-			isa = PBXGroup;
-			children = (
-				8C661A631CFD996700656971 /* splash.jpeg */,
-				8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */,
-			);
-			name = pics;
-			sourceTree = "<group>";
-		};
 		8C7D34F71CFCA5590099305C /* storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +200,7 @@
 				8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */,
 				8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */,
 				8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */,
+				C7F9983B1CFDEEBF0011FF9D /* View&EditProfile.storyboard */,
 			);
 			name = storyboards;
 			sourceTree = "<group>";
@@ -247,6 +239,7 @@
 		CED7E1A6A0F63528FEC1E1FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7F9983D1CFDF6660011FF9D /* AssetsLibrary.framework */,
 				552737CB68EF43B7E73C128B /* Pods_myNavDrawer.framework */,
 				B5FAAD81A3CF27A2EF885BB5 /* Pods_myNavDrawerTests.framework */,
 			);
@@ -376,7 +369,7 @@
 			files = (
 				8C1978B51CEDAB91005FC5CD /* LaunchScreen.storyboard in Resources */,
 				8C7D34F91CFCA5910099305C /* StoryboardFADY.storyboard in Resources */,
-				8C661A641CFD996700656971 /* splash.jpeg in Resources */,
+				C7F9983C1CFDEEBF0011FF9D /* View&EditProfile.storyboard in Resources */,
 				8C7D34FD1CFCA5BC0099305C /* StoryboardFATIMA.storyboard in Resources */,
 				C7F8175F1CFDCC840086A9DC /* FadyHany.storyboard in Resources */,
 				8C7D34FB1CFCA5AC0099305C /* StoryboardSALMA.storyboard in Resources */,
@@ -663,7 +656,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myNavDrawer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c.myNavDrawer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -676,7 +669,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myNavDrawer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c.myNavDrawer;
 				PRODUCT_NAME = "$(TARGET_NAME)";

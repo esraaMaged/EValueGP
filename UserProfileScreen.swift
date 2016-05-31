@@ -115,7 +115,7 @@ class UserProfileScreen: UIViewController {
   
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        if segue.identifier == "editProfileSegue"{
+        if segue.identifier == "editProfileScreen"{
         
                 let editProfileScreen = segue.destinationViewController as! EditUserProfileController
             

@@ -14,7 +14,7 @@ class LeftViewController: UIViewController , UITableViewDataSource, UITableViewD
     @IBOutlet weak var profileIMV: UIImageView!
     
     
-    var menuItems:[String] = ["Profile","Main Tasks","Perant Tasks","Team Tasks","Show Statistics", "About"];
+    var menuItems:[String] = ["Profile","Main Tasks","Perant Tasks","Team Tasks","Show Statistics", "About","Logout"];
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,6 +81,15 @@ class LeftViewController: UIViewController , UITableViewDataSource, UITableViewD
             
 */
             break;
+            
+        case 6:
+            
+            let loginScreen = storyboard?.instantiateViewControllerWithIdentifier("LoginScreen") as! LoginScreen
+            
+            self.presentViewController(loginScreen, animated: true, completion: nil)
+            
+            break
+            
             
         default:
             

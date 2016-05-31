@@ -18,6 +18,9 @@ class LoginScreen: UIViewController, loginDelegate {
     var acccountChild:String!
     
     
+    
+    
+    
     //An Object From The App Delegate
   
   var appDele: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate

@@ -147,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SDW-Cm-r6y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="512" y="-385"/>
+            <point key="canvasLocation" x="526" y="-379"/>
         </scene>
         <!--Create Account Screen-->
         <scene sceneID="Ubo-H3-i3m">
@@ -174,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Slq-uc-3qp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1778" y="-401"/>
+            <point key="canvasLocation" x="1782" y="-369"/>
         </scene>
         <!--Child User Screen-->
         <scene sceneID="ohN-PD-ebD">
@@ -307,7 +307,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4q4-zz-gQJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1088" y="-401"/>
+            <point key="canvasLocation" x="1042" y="-379"/>
         </scene>
         <!--Password Validation Screen-->
         <scene sceneID="0VP-8N-hEe">
@@ -389,7 +389,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kyu-pz-jCH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1433" y="-401"/>
+            <point key="canvasLocation" x="1435" y="-379"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ixi-wB-xlR">
@@ -407,7 +407,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iDO-I3-zgq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="294" y="-401"/>
+            <point key="canvasLocation" x="106" y="-379"/>
         </scene>
         <!--Day1-->
         <scene sceneID="eVS-Oj-0Dh">

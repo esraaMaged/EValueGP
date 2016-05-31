@@ -84,8 +84,19 @@ class EditPasswordPasswordScreen: UIViewController {
         print(confirmPasswordTextField.text!)
         print("Your Data Has Been Updated")
         
-//        var taskListScreen = storyboard?.instantiateViewControllerWithIdentifier("LoginScreen") as! LoginScreen
+         var loginScreen = storyboard?.instantiateViewControllerWithIdentifier("myLoginScreen") as! LoginScreen
         
+        var myNav = appDele.centerContainer?.centerViewController as! UINavigationController
+        
+        //self.dismissViewControllerAnimated(true, completion: nil)
+        //self.presentViewController(loginScreen, animated: true, completion: nil)
+        
+        
+        self.navigationController?.pushViewController(loginScreen, animated: true)
+        
+        //self.navigationController?.pushViewController(loginScreen, animated: true)
+        
+        //self.presentViewController(view, animated: true, completion: nil)
      
     }
     
@@ -98,7 +109,9 @@ class EditPasswordPasswordScreen: UIViewController {
 //        
 //        myNav.pushViewController(loginScreen, animated: true)
         
-    
+    self.dismissViewControllerAnimated(true, completion: nil)
+        
+     
         
        
     }

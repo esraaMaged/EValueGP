@@ -17,6 +17,56 @@ class EditUserProfileController: UIViewController,UIPickerViewDelegate,UIPickerV
     
     @IBOutlet var userNameTextField: UITextField!
     
+    @IBAction func doneBTN(sender: AnyObject) {
+        
+        //--------------------edit web Service-------------------------------------
+        
+        
+        var url = NSURL(string:"http://10.118.48.254:9090/evalserv/rest/profile/edit?name=&password=&email=&gender=")
+        
+        //Request
+        var request = NSURLRequest(URL: url!)
+        
+        //Session
+        var session = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())
+        
+        //Enable Shared Application
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = true
+        
+        
+        //Task
+        let task = session.dataTaskWithRequest(request){
+            (data,response,error) in
+            
+            do{
+                var json = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.AllowFragments) as! NSArray
+                
+                let dict = json[0] as! NSDictionary
+                
+             
+                
+                
+            }catch{
+                print("Check Your Network Issue")
+            }
+            
+            dispatch_async(dispatch_get_main_queue(), {
+                
+                
+                //Check if the data is returing  null
+                
+
+                
+            })
+        }
+        task.resume()
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+        
+        
+        //-----------------end of edit webService---------------------------------------
+        
+        
+    }
     
     var userNameText:String!
     var userEmailText:String!
@@ -25,7 +75,8 @@ class EditUserProfileController: UIViewController,UIPickerViewDelegate,UIPickerV
     var genderSelected:String!
     
     
-    
+    //Array of Strings
+    var parameters = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +90,86 @@ class EditUserProfileController: UIViewController,UIPickerViewDelegate,UIPickerV
     //    var url = NSURL(string: userImageUrl)
     //    var data = NSData(contentsOfURL: url!)
      //   myImageView.image = UIImage(data: data!)
+        
+        
+        
+  //-------------------------------------webServices------------------------------------------------------------------
+        var url = NSURL(string:"http://10.118.48.254:9090/evalserv/rest/profile/view?name=fady")
+        
+        //Request
+        var request = NSURLRequest(URL: url!)
+        
+        //Session
+        var session = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())
+        
+        //Enable Shared Application
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = true
+        
+        
+        //Task
+        let task = session.dataTaskWithRequest(request){
+            (data,response,error) in
+            
+            do{
+                var json = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.AllowFragments) as! NSArray
+                
+                let dict = json[0] as! NSDictionary
+                
+                self.userEmailText = dict.objectForKey("email") as! String
+                self.userNameText = String (dict.objectForKey("name")!)
+                self.genderSelected = String(dict.objectForKey("password")!)
+                //  self.userImageUrl = dict.objectForKey("image") as! String
+                
+                
+                self.parameters.append(self.userEmailText)
+                self.parameters.append(self.userNameText)
+                self.parameters.append(self.genderSelected)
+                //     self.parameters.append(self.userImageUrl)
+                
+                
+            }catch{
+                print("Check Your Network Issue")
+            }
+            
+            dispatch_async(dispatch_get_main_queue(), {
+                
+                
+                //Check if the data is returing  null
+                
+                for var i = 0 ; i < self.parameters.count ; ++i{
+                    
+                    if(self.parameters[i].isEmpty){
+                        
+                        print("Please Check Your Network Connection")
+                        
+                    }else{
+                        self.userEmailTextField.text = self.userEmailText
+                        self.userEmailTextField.text = self.userEmailText
+                        self.userNameTextField.text = self.userNameText
+                  //      self.genderSelected.text = self.userGender
+                        
+                        //    var  imageUrl = NSURL(string: self.userImageUrl)
+                        //    var imageData = NSData(contentsOfURL: imageUrl!)
+                        
+                        
+                        //      self.userImageView.image = UIImage(data: imageData!)
+                        
+                        
+                    }
+                    
+                    //print(self.parameters[i])
+                }
+                
+                
+                
+                
+                
+            })
+        }
+        task.resume()
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+        
+  //-----------------------------------------webservice---------------------------------
     }
     
     

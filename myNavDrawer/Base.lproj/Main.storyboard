@@ -480,6 +480,7 @@
                                 <rect key="frame" x="151" y="482" width="42" height="30"/>
                                 <state key="normal" title="DONE"/>
                                 <connections>
+                                    <action selector="doneBTN:" destination="vCl-uQ-SjN" eventType="touchUpInside" id="eHH-QR-KsI"/>
                                     <segue destination="R9y-Ym-y4C" kind="show" id="eke-4K-H8Z"/>
                                 </connections>
                             </button>

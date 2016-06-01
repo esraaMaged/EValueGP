@@ -88,7 +88,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfB-Sd-pL1">
                                 <rect key="frame" x="116" y="19" width="83" height="76"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" backgroundImage="camera5.jpeg">
+                                <state key="normal" backgroundImage="camera5">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -205,6 +205,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="camera5.jpeg" width="1860" height="894"/>
+        <image name="camera5" width="800" height="800"/>
     </resources>
 </document>

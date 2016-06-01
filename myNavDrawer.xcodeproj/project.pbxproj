@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		71F7BCA82A51607667CB6B47 /* Pods_myNavDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552737CB68EF43B7E73C128B /* Pods_myNavDrawer.framework */; };
 		8AA428615A4B0A2B3DA582C8 /* Pods_myNavDrawerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FAAD81A3CF27A2EF885BB5 /* Pods_myNavDrawerTests.framework */; };
+		8C0430A61CFE782900F3FABB /* splash.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C0430A51CFE782900F3FABB /* splash.jpeg */; };
+		8C0430A81CFE7BA100F3FABB /* AchievementsForMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0430A71CFE7BA100F3FABB /* AchievementsForMeViewController.swift */; };
+		8C0430AA1CFE7BAC00F3FABB /* UserInfoRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0430A91CFE7BAC00F3FABB /* UserInfoRegistration.swift */; };
+		8C0430AC1CFE7BBA00F3FABB /* TJTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0430AB1CFE7BBA00F3FABB /* TJTextField.swift */; };
+		8C0430AE1CFE7C0900F3FABB /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0430AD1CFE7C0900F3FABB /* RegistrationViewController.swift */; };
+		8C0430B01CFE7CAC00F3FABB /* camera5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C0430AF1CFE7CAC00F3FABB /* camera5.jpeg */; };
 		8C1978AB1CEDAB91005FC5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1978AA1CEDAB91005FC5CD /* AppDelegate.swift */; };
 		8C1978AD1CEDAB91005FC5CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1978AC1CEDAB91005FC5CD /* ViewController.swift */; };
 		8C1978B01CEDAB91005FC5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1978AE1CEDAB91005FC5CD /* Main.storyboard */; };
@@ -18,8 +24,6 @@
 		8C1978CB1CEDAB91005FC5CD /* myNavDrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1978CA1CEDAB91005FC5CD /* myNavDrawerUITests.swift */; };
 		8C278A9F1CEF82CA00AF8CEE /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C278A9E1CEF82CA00AF8CEE /* LeftViewController.swift */; };
 		8C278AA11CEF9CD800AF8CEE /* MyCustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */; };
-		8C63CBD61CF2EBF5009159AF /* rapanzel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */; };
-		8C661A641CFD996700656971 /* splash.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C661A631CFD996700656971 /* splash.jpeg */; };
 		8C7D34F91CFCA5910099305C /* StoryboardFADY.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */; };
 		8C7D34FB1CFCA5AC0099305C /* StoryboardSALMA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */; };
 		8C7D34FD1CFCA5BC0099305C /* StoryboardFATIMA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */; };
@@ -65,6 +69,12 @@
 		552737CB68EF43B7E73C128B /* Pods_myNavDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myNavDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		664BBF65D5A1EE2885793BE1 /* Pods-myNavDrawerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myNavDrawerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myNavDrawerTests/Pods-myNavDrawerTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B90982316C2541BA4A4E4A5 /* Pods-myNavDrawerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myNavDrawerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myNavDrawerTests/Pods-myNavDrawerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C0430A51CFE782900F3FABB /* splash.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = splash.jpeg; path = ../../Downloads/splash.jpeg; sourceTree = "<group>"; };
+		8C0430A71CFE7BA100F3FABB /* AchievementsForMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AchievementsForMeViewController.swift; path = "../untitled folder 2/eValueRegistration/AchievementsForMeViewController.swift"; sourceTree = "<group>"; };
+		8C0430A91CFE7BAC00F3FABB /* UserInfoRegistration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserInfoRegistration.swift; path = ../../Desktop/EvalueRegistration/UserInfoRegistration.swift; sourceTree = "<group>"; };
+		8C0430AB1CFE7BBA00F3FABB /* TJTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TJTextField.swift; path = "../../Desktop/TJTextField-master/UnderLineTextField/TJTextField.swift"; sourceTree = "<group>"; };
+		8C0430AD1CFE7C0900F3FABB /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationViewController.swift; path = "../untitled folder 2/eValueRegistration/eValueRegistration/RegistrationViewController.swift"; sourceTree = "<group>"; };
+		8C0430AF1CFE7CAC00F3FABB /* camera5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = camera5.jpeg; path = ../../Desktop/camera5.jpeg; sourceTree = "<group>"; };
 		8C1978A71CEDAB91005FC5CD /* myNavDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myNavDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1978AA1CEDAB91005FC5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C1978AC1CEDAB91005FC5CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,8 +90,6 @@
 		8C1978CC1CEDAB91005FC5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C278A9E1CEF82CA00AF8CEE /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		8C278AA01CEF9CD800AF8CEE /* MyCustomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomViewCell.swift; sourceTree = "<group>"; };
-		8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rapanzel.jpeg; path = ../rapanzel.jpeg; sourceTree = "<group>"; };
-		8C661A631CFD996700656971 /* splash.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = splash.jpeg; path = ../splash.jpeg; sourceTree = "<group>"; };
 		8C7D34F81CFCA5910099305C /* StoryboardFADY.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardFADY.storyboard; sourceTree = "<group>"; };
 		8C7D34FA1CFCA5AC0099305C /* StoryboardSALMA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardSALMA.storyboard; sourceTree = "<group>"; };
 		8C7D34FC1CFCA5BC0099305C /* StoryboardFATIMA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardFATIMA.storyboard; sourceTree = "<group>"; };
@@ -196,8 +204,8 @@
 		8C7D34F61CFCA5440099305C /* pics */ = {
 			isa = PBXGroup;
 			children = (
-				8C661A631CFD996700656971 /* splash.jpeg */,
-				8C63CBD51CF2EBF5009159AF /* rapanzel.jpeg */,
+				8C0430AF1CFE7CAC00F3FABB /* camera5.jpeg */,
+				8C0430A51CFE782900F3FABB /* splash.jpeg */,
 			);
 			name = pics;
 			sourceTree = "<group>";
@@ -217,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				C7F8175C1CFDCBD70086A9DC /* ChildUserScreen.swift */,
+				8C0430A71CFE7BA100F3FABB /* AchievementsForMeViewController.swift */,
 				C7F8175A1CFDC5760086A9DC /* CreateAccountScreen.swift */,
 				C7F817581CFDC4F30086A9DC /* EditPasswordPasswordScreen.swift */,
 				C7F817561CFDC4EB0086A9DC /* EditUserProfileController.swift */,
@@ -224,6 +233,7 @@
 				C7F817521CFDC4D80086A9DC /* ForgotMyPasswordScreen.swift */,
 				C7F817501CFDC4BC0086A9DC /* PasswordValidationScreen.swift */,
 				C7F8174E1CFDC4B30086A9DC /* MileStoneEditView.swift */,
+				8C0430AD1CFE7C0900F3FABB /* RegistrationViewController.swift */,
 				C7F8174C1CFDC4A40086A9DC /* MileStoneEditTable.swift */,
 				C7F8174A1CFDC4910086A9DC /* SimpleUserScreen.swift */,
 				C7F817481CFDC4820086A9DC /* UserProfileScreen.swift */,
@@ -238,8 +248,10 @@
 				C7F817441CFDC4240086A9DC /* Type.swift */,
 				C7F817421CFDC4170086A9DC /* TaskInfo.swift */,
 				C7F817401CFDC40C0086A9DC /* UserTask.swift */,
+				8C0430A91CFE7BAC00F3FABB /* UserInfoRegistration.swift */,
 				C7F8173E1CFDC4030086A9DC /* UserInfo.swift */,
 				C7F8173C1CFDC3E80086A9DC /* Category.swift */,
+				8C0430AB1CFE7BBA00F3FABB /* TJTextField.swift */,
 			);
 			name = Pojos;
 			sourceTree = "<group>";
@@ -375,11 +387,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C1978B51CEDAB91005FC5CD /* LaunchScreen.storyboard in Resources */,
+				8C0430B01CFE7CAC00F3FABB /* camera5.jpeg in Resources */,
 				8C7D34F91CFCA5910099305C /* StoryboardFADY.storyboard in Resources */,
-				8C661A641CFD996700656971 /* splash.jpeg in Resources */,
 				8C7D34FD1CFCA5BC0099305C /* StoryboardFATIMA.storyboard in Resources */,
 				C7F8175F1CFDCC840086A9DC /* FadyHany.storyboard in Resources */,
 				8C7D34FB1CFCA5AC0099305C /* StoryboardSALMA.storyboard in Resources */,
+				8C0430A61CFE782900F3FABB /* splash.jpeg in Resources */,
 				8C1978B21CEDAB91005FC5CD /* Assets.xcassets in Resources */,
 				8C1978B01CEDAB91005FC5CD /* Main.storyboard in Resources */,
 			);
@@ -503,7 +516,9 @@
 				C7F817591CFDC4F30086A9DC /* EditPasswordPasswordScreen.swift in Sources */,
 				C7F817531CFDC4D80086A9DC /* ForgotMyPasswordScreen.swift in Sources */,
 				8C278A9F1CEF82CA00AF8CEE /* LeftViewController.swift in Sources */,
+				8C0430A81CFE7BA100F3FABB /* AchievementsForMeViewController.swift in Sources */,
 				C7F8174D1CFDC4A40086A9DC /* MileStoneEditTable.swift in Sources */,
+				8C0430AA1CFE7BAC00F3FABB /* UserInfoRegistration.swift in Sources */,
 				C7F8173D1CFDC3E80086A9DC /* Category.swift in Sources */,
 				8C278AA11CEF9CD800AF8CEE /* MyCustomViewCell.swift in Sources */,
 				C7F817411CFDC40C0086A9DC /* UserTask.swift in Sources */,
@@ -511,11 +526,13 @@
 				C7F8175D1CFDCBD70086A9DC /* ChildUserScreen.swift in Sources */,
 				C7F8175B1CFDC5760086A9DC /* CreateAccountScreen.swift in Sources */,
 				C7F817551CFDC4E40086A9DC /* EditUserTaskScreen.swift in Sources */,
+				8C0430AE1CFE7C0900F3FABB /* RegistrationViewController.swift in Sources */,
 				C7F817491CFDC4820086A9DC /* UserProfileScreen.swift in Sources */,
 				C7F8173F1CFDC4030086A9DC /* UserInfo.swift in Sources */,
 				8C1978AB1CEDAB91005FC5CD /* AppDelegate.swift in Sources */,
 				C7F817571CFDC4EB0086A9DC /* EditUserProfileController.swift in Sources */,
 				C7F817451CFDC4240086A9DC /* Type.swift in Sources */,
+				8C0430AC1CFE7BBA00F3FABB /* TJTextField.swift in Sources */,
 				C7F8174B1CFDC4910086A9DC /* SimpleUserScreen.swift in Sources */,
 				C7F817471CFDC4700086A9DC /* LoginScreen.swift in Sources */,
 				C7F817511CFDC4BC0086A9DC /* PasswordValidationScreen.swift in Sources */,

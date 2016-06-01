@@ -36,7 +36,9 @@ class UserProfileScreen: UIViewController {
     
         
         //URl
-        var url = NSURL(string: "http://api.androidhive.info/json/movies.json")
+      //  var url = NSURL(string: "http://api.androidhive.info/json/movies.json")
+//
+       var url = NSURL(string:"http://10.118.48.254:9090/evalserv/rest/profile/view?name=fady")
         
         //Request
         var request = NSURLRequest(URL: url!)
@@ -57,16 +59,16 @@ class UserProfileScreen: UIViewController {
                 
                 let dict = json[0] as! NSDictionary
                 
-                self.userEmail = dict.objectForKey("title") as! String
-                self.userName = String (dict.objectForKey("releaseYear")!)
-                self.userGender = String(dict.objectForKey("rating")!)
-                self.userImageUrl = dict.objectForKey("image") as! String
+                self.userEmail = dict.objectForKey("email") as! String
+                self.userName = String (dict.objectForKey("name")!)
+                self.userGender = String(dict.objectForKey("password")!)
+              //  self.userImageUrl = dict.objectForKey("image") as! String
                 
                 
                 self.parameters.append(self.userEmail)
                 self.parameters.append(self.userName)
                 self.parameters.append(self.userGender)
-                self.parameters.append(self.userImageUrl)
+           //     self.parameters.append(self.userImageUrl)
                 
                 
             }catch{
@@ -90,11 +92,11 @@ class UserProfileScreen: UIViewController {
                         self.userUserNameLabel.text = self.userName
                         self.genderLabel.text = self.userGender
                         
-                        var  imageUrl = NSURL(string: self.userImageUrl)
-                        var imageData = NSData(contentsOfURL: imageUrl!)
+                    //    var  imageUrl = NSURL(string: self.userImageUrl)
+                    //    var imageData = NSData(contentsOfURL: imageUrl!)
                         
                         
-                        self.userImageView.image = UIImage(data: imageData!)
+                  //      self.userImageView.image = UIImage(data: imageData!)
                     
                         
                     }
@@ -121,7 +123,7 @@ class UserProfileScreen: UIViewController {
             
                     editProfileScreen.userEmailText = userEmail
                     editProfileScreen.userNameText = userName
-                    editProfileScreen.userImageUrl = userImageUrl
+                //    editProfileScreen.userImageUrl = userImageUrl
                     editProfileScreen.genderSelected = userGender
         }
         

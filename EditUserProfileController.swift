@@ -20,7 +20,7 @@ class EditUserProfileController: UIViewController,UIPickerViewDelegate,UIPickerV
     
     var userNameText:String!
     var userEmailText:String!
-    var userImageUrl:String!
+   // var userImageUrl:String!
     var userGender:[String]!
     var genderSelected:String!
     
@@ -35,10 +35,10 @@ class EditUserProfileController: UIViewController,UIPickerViewDelegate,UIPickerV
         
         
         userGender = ["male","female"]
-        
-        var url = NSURL(string: userImageUrl)
-        var data = NSData(contentsOfURL: url!)
-        myImageView.image = UIImage(data: data!)
+    
+    //    var url = NSURL(string: userImageUrl)
+    //    var data = NSData(contentsOfURL: url!)
+     //   myImageView.image = UIImage(data: data!)
     }
     
     
@@ -75,7 +75,7 @@ class EditUserProfileController: UIViewController,UIPickerViewDelegate,UIPickerV
             editPasswordScreen.userEmail = userEmailText
             editPasswordScreen.userName = userNameText
             editPasswordScreen.userGender = genderSelected
-            editPasswordScreen.userImageSelected = userImageUrl
+        //    editPasswordScreen.userImageSelected = userImageUrl
         
             
         }
@@ -88,33 +88,33 @@ class EditUserProfileController: UIViewController,UIPickerViewDelegate,UIPickerV
 
     @IBAction func chooseImageButton(sender: AnyObject) {
 //        //Image Picker Controller
-        var imagePicker = UIImagePickerController()
-        imagePicker.delegate = self
-        imagePicker.sourceType = .PhotoLibrary
-        self.presentViewController(imagePicker, animated: true, completion: nil)
+    //    var imagePicker = UIImagePickerController()
+    //    imagePicker.delegate = self
+     //   imagePicker.sourceType = .PhotoLibrary
+     //   self.presentViewController(imagePicker, animated: true, completion: nil)
     }
     
-    
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
-        
-        myImageView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
-        
-        //Get Image Name
-        
-        if let referenceUrl = info[UIImagePickerControllerReferenceURL] as? NSURL{
-        
-                ALAssetsLibrary().assetForURL(referenceUrl, resultBlock: { (asset) in
-                    
-                    self.userImageUrl = asset.defaultRepresentation().filename()
-                    
-                    print(self.userImageUrl)
-                    
-                    }, failureBlock: nil)
-        
-        }
+//    
+//    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+//        
+//     //   myImageView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+//        
+//        //Get Image Name
+//      
+//    //    if let referenceUrl = info[UIImagePickerControllerReferenceURL] as? NSURL{
+//        
+//                ALAssetsLibrary().assetForURL(referenceUrl, resultBlock: { (asset) in
+//                    
+//                    self.userImageUrl = asset.defaultRepresentation().filename()
+//                    
+//                    print(self.userImageUrl)
+//                    
+//                    }, failureBlock: nil)
+//        
+//        }
   
-        self.dismissViewControllerAnimated(true, completion: nil)
-    }
+   //     self.dismissViewControllerAnimated(true, completion: nil)
+   // }
     
     
 }

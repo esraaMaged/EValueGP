@@ -86,7 +86,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfB-Sd-pL1">
-                                <rect key="frame" x="116" y="28" width="83" height="76"/>
+                                <rect key="frame" x="116" y="19" width="83" height="76"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" backgroundImage="camera5.jpeg">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -113,21 +113,36 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kug-bI-7ue">
-                                <rect key="frame" x="48" y="173" width="218" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3QI-Pr-iMK">
+                                <rect key="frame" x="72" y="117" width="194" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.83981826420000005" green="0.080471268319999997" blue="0.12764838249999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsV-oD-tz4">
+                                <rect key="frame" x="100" y="189" width="173" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.83981826420000005" green="0.080471268319999997" blue="0.12764838249999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDQ-TK-c9t">
+                                <rect key="frame" x="72" y="254" width="194" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.83981826420000005" green="0.080471268319999997" blue="0.12764838249999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="emailLabel" destination="WsV-oD-tz4" id="avK-l2-kHX"/>
                         <outlet property="emailTF" destination="r1m-fB-hF5" id="wWw-Sx-Wlx"/>
                         <outlet property="imagePicked" destination="sfB-Sd-pL1" id="06e-eM-NPo"/>
+                        <outlet property="nameLabel" destination="3QI-Pr-iMK" id="Afl-Dc-lVn"/>
                         <outlet property="nameTF" destination="ppB-nJ-37V" id="67A-MO-IDk"/>
+                        <outlet property="passwordLabel" destination="zDQ-TK-c9t" id="w3c-dJ-rl1"/>
                         <outlet property="passwordTF" destination="NDj-T8-RcN" id="SeY-IZ-GhW"/>
-                        <outlet property="testingTF" destination="Kug-bI-7ue" id="bkw-On-tvS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iup-pL-DGa" sceneMemberID="firstResponder"/>

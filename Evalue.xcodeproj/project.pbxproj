@@ -68,17 +68,17 @@
 		552737CB68EF43B7E73C128B /* Pods_myNavDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myNavDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		664BBF65D5A1EE2885793BE1 /* Pods-myNavDrawerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myNavDrawerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myNavDrawerTests/Pods-myNavDrawerTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B90982316C2541BA4A4E4A5 /* Pods-myNavDrawerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myNavDrawerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myNavDrawerTests/Pods-myNavDrawerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8C1978A71CEDAB91005FC5CD /* myNavDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myNavDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1978A71CEDAB91005FC5CD /* Evalue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Evalue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1978AA1CEDAB91005FC5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C1978AC1CEDAB91005FC5CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C1978AF1CEDAB91005FC5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C1978B11CEDAB91005FC5CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C1978B41CEDAB91005FC5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C1978B61CEDAB91005FC5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C1978BB1CEDAB91005FC5CD /* myNavDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myNavDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1978BB1CEDAB91005FC5CD /* Evalue.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Evalue.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1978BF1CEDAB91005FC5CD /* myNavDrawerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myNavDrawerTests.swift; sourceTree = "<group>"; };
 		8C1978C11CEDAB91005FC5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C1978C61CEDAB91005FC5CD /* myNavDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myNavDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1978C61CEDAB91005FC5CD /* Evalue.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Evalue.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1978CA1CEDAB91005FC5CD /* myNavDrawerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myNavDrawerUITests.swift; sourceTree = "<group>"; };
 		8C1978CC1CEDAB91005FC5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C278A9E1CEF82CA00AF8CEE /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
@@ -161,9 +161,9 @@
 		8C1978A81CEDAB91005FC5CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C1978A71CEDAB91005FC5CD /* myNavDrawer.app */,
-				8C1978BB1CEDAB91005FC5CD /* myNavDrawerTests.xctest */,
-				8C1978C61CEDAB91005FC5CD /* myNavDrawerUITests.xctest */,
+				8C1978A71CEDAB91005FC5CD /* Evalue.app */,
+				8C1978BB1CEDAB91005FC5CD /* Evalue.xctest */,
+				8C1978C61CEDAB91005FC5CD /* Evalue.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,9 +271,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C1978A61CEDAB91005FC5CD /* myNavDrawer */ = {
+		8C1978A61CEDAB91005FC5CD /* Evalue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C1978CF1CEDAB91005FC5CD /* Build configuration list for PBXNativeTarget "myNavDrawer" */;
+			buildConfigurationList = 8C1978CF1CEDAB91005FC5CD /* Build configuration list for PBXNativeTarget "Evalue" */;
 			buildPhases = (
 				2E2392E6BB9F64E6B0D1D14C /* 📦 Check Pods Manifest.lock */,
 				8C1978A31CEDAB91005FC5CD /* Sources */,
@@ -286,14 +286,14 @@
 			);
 			dependencies = (
 			);
-			name = myNavDrawer;
+			name = Evalue;
 			productName = myNavDrawer;
-			productReference = 8C1978A71CEDAB91005FC5CD /* myNavDrawer.app */;
+			productReference = 8C1978A71CEDAB91005FC5CD /* Evalue.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8C1978BA1CEDAB91005FC5CD /* myNavDrawerTests */ = {
+		8C1978BA1CEDAB91005FC5CD /* EvalueTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C1978D21CEDAB91005FC5CD /* Build configuration list for PBXNativeTarget "myNavDrawerTests" */;
+			buildConfigurationList = 8C1978D21CEDAB91005FC5CD /* Build configuration list for PBXNativeTarget "EvalueTests" */;
 			buildPhases = (
 				F205585C79AB056DD1912AF2 /* 📦 Check Pods Manifest.lock */,
 				8C1978B71CEDAB91005FC5CD /* Sources */,
@@ -307,14 +307,14 @@
 			dependencies = (
 				8C1978BD1CEDAB91005FC5CD /* PBXTargetDependency */,
 			);
-			name = myNavDrawerTests;
+			name = EvalueTests;
 			productName = myNavDrawerTests;
-			productReference = 8C1978BB1CEDAB91005FC5CD /* myNavDrawerTests.xctest */;
+			productReference = 8C1978BB1CEDAB91005FC5CD /* Evalue.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8C1978C51CEDAB91005FC5CD /* myNavDrawerUITests */ = {
+		8C1978C51CEDAB91005FC5CD /* EvalueUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C1978D51CEDAB91005FC5CD /* Build configuration list for PBXNativeTarget "myNavDrawerUITests" */;
+			buildConfigurationList = 8C1978D51CEDAB91005FC5CD /* Build configuration list for PBXNativeTarget "EvalueUITests" */;
 			buildPhases = (
 				8C1978C21CEDAB91005FC5CD /* Sources */,
 				8C1978C31CEDAB91005FC5CD /* Frameworks */,
@@ -325,9 +325,9 @@
 			dependencies = (
 				8C1978C81CEDAB91005FC5CD /* PBXTargetDependency */,
 			);
-			name = myNavDrawerUITests;
+			name = EvalueUITests;
 			productName = myNavDrawerUITests;
-			productReference = 8C1978C61CEDAB91005FC5CD /* myNavDrawerUITests.xctest */;
+			productReference = 8C1978C61CEDAB91005FC5CD /* Evalue.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -353,7 +353,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C1978A21CEDAB91005FC5CD /* Build configuration list for PBXProject "myNavDrawer" */;
+			buildConfigurationList = 8C1978A21CEDAB91005FC5CD /* Build configuration list for PBXProject "Evalue" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -366,9 +366,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C1978A61CEDAB91005FC5CD /* myNavDrawer */,
-				8C1978BA1CEDAB91005FC5CD /* myNavDrawerTests */,
-				8C1978C51CEDAB91005FC5CD /* myNavDrawerUITests */,
+				8C1978A61CEDAB91005FC5CD /* Evalue */,
+				8C1978BA1CEDAB91005FC5CD /* EvalueTests */,
+				8C1978C51CEDAB91005FC5CD /* EvalueUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -551,12 +551,12 @@
 /* Begin PBXTargetDependency section */
 		8C1978BD1CEDAB91005FC5CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8C1978A61CEDAB91005FC5CD /* myNavDrawer */;
+			target = 8C1978A61CEDAB91005FC5CD /* Evalue */;
 			targetProxy = 8C1978BC1CEDAB91005FC5CD /* PBXContainerItemProxy */;
 		};
 		8C1978C81CEDAB91005FC5CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8C1978A61CEDAB91005FC5CD /* myNavDrawer */;
+			target = 8C1978A61CEDAB91005FC5CD /* Evalue */;
 			targetProxy = 8C1978C71CEDAB91005FC5CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -617,7 +617,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -656,7 +656,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -673,7 +673,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c.myNavDrawer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Evalue;
 			};
 			name = Debug;
 		};
@@ -686,7 +686,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c.myNavDrawer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Evalue;
 			};
 			name = Release;
 		};
@@ -698,8 +698,8 @@
 				INFOPLIST_FILE = myNavDrawerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c.myNavDrawerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myNavDrawer.app/myNavDrawer";
+				PRODUCT_NAME = Evalue;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evalue.app/Evalue";
 			};
 			name = Debug;
 		};
@@ -711,8 +711,8 @@
 				INFOPLIST_FILE = myNavDrawerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c.myNavDrawerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myNavDrawer.app/myNavDrawer";
+				PRODUCT_NAME = Evalue;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evalue.app/Evalue";
 			};
 			name = Release;
 		};
@@ -722,7 +722,7 @@
 				INFOPLIST_FILE = myNavDrawerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c.myNavDrawerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Evalue;
 				TEST_TARGET_NAME = myNavDrawer;
 				USES_XCTRUNNER = YES;
 			};
@@ -734,7 +734,7 @@
 				INFOPLIST_FILE = myNavDrawerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c.myNavDrawerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Evalue;
 				TEST_TARGET_NAME = myNavDrawer;
 				USES_XCTRUNNER = YES;
 			};
@@ -743,7 +743,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C1978A21CEDAB91005FC5CD /* Build configuration list for PBXProject "myNavDrawer" */ = {
+		8C1978A21CEDAB91005FC5CD /* Build configuration list for PBXProject "Evalue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C1978CD1CEDAB91005FC5CD /* Debug */,
@@ -752,7 +752,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C1978CF1CEDAB91005FC5CD /* Build configuration list for PBXNativeTarget "myNavDrawer" */ = {
+		8C1978CF1CEDAB91005FC5CD /* Build configuration list for PBXNativeTarget "Evalue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C1978D01CEDAB91005FC5CD /* Debug */,
@@ -761,7 +761,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C1978D21CEDAB91005FC5CD /* Build configuration list for PBXNativeTarget "myNavDrawerTests" */ = {
+		8C1978D21CEDAB91005FC5CD /* Build configuration list for PBXNativeTarget "EvalueTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C1978D31CEDAB91005FC5CD /* Debug */,
@@ -770,7 +770,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C1978D51CEDAB91005FC5CD /* Build configuration list for PBXNativeTarget "myNavDrawerUITests" */ = {
+		8C1978D51CEDAB91005FC5CD /* Build configuration list for PBXNativeTarget "EvalueUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C1978D61CEDAB91005FC5CD /* Debug */,

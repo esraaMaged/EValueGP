@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8C1978A61CEDAB91005FC5CD"
-               BuildableName = "myNavDrawer.app"
-               BlueprintName = "myNavDrawer"
-               ReferencedContainer = "container:myNavDrawer.xcodeproj">
+               BuildableName = "Evalue.app"
+               BlueprintName = "Evalue"
+               ReferencedContainer = "container:Evalue.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8C1978BA1CEDAB91005FC5CD"
-               BuildableName = "myNavDrawerTests.xctest"
-               BlueprintName = "myNavDrawerTests"
-               ReferencedContainer = "container:myNavDrawer.xcodeproj">
+               BuildableName = "Evalue.xctest"
+               BlueprintName = "EvalueTests"
+               ReferencedContainer = "container:Evalue.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8C1978C51CEDAB91005FC5CD"
-               BuildableName = "myNavDrawerUITests.xctest"
-               BlueprintName = "myNavDrawerUITests"
-               ReferencedContainer = "container:myNavDrawer.xcodeproj">
+               BuildableName = "Evalue.xctest"
+               BlueprintName = "EvalueUITests"
+               ReferencedContainer = "container:Evalue.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C1978A61CEDAB91005FC5CD"
-            BuildableName = "myNavDrawer.app"
-            BlueprintName = "myNavDrawer"
-            ReferencedContainer = "container:myNavDrawer.xcodeproj">
+            BuildableName = "Evalue.app"
+            BlueprintName = "Evalue"
+            ReferencedContainer = "container:Evalue.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C1978A61CEDAB91005FC5CD"
-            BuildableName = "myNavDrawer.app"
-            BlueprintName = "myNavDrawer"
-            ReferencedContainer = "container:myNavDrawer.xcodeproj">
+            BuildableName = "Evalue.app"
+            BlueprintName = "Evalue"
+            ReferencedContainer = "container:Evalue.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C1978A61CEDAB91005FC5CD"
-            BuildableName = "myNavDrawer.app"
-            BlueprintName = "myNavDrawer"
-            ReferencedContainer = "container:myNavDrawer.xcodeproj">
+            BuildableName = "Evalue.app"
+            BlueprintName = "Evalue"
+            ReferencedContainer = "container:Evalue.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

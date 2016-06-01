@@ -16,6 +16,12 @@ protocol loginDelegate {
 
 class LoginScreen: UIViewController, loginDelegate {
     var acccountChild:String!
+    
+    
+    
+    
+    
+    //An Object From The App Delegate
   
   var appDele: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     
@@ -83,7 +89,7 @@ class LoginScreen: UIViewController, loginDelegate {
                     print(myReleaseYear)
                     print(self.acccountChild)
                     print("Your Data is right")
-                    var second = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+//                    var second = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
                     //second.myDelegate = self
             
                     self.presentViewController(self.appDele.centerContainer!, animated: true, completion: nil)
@@ -92,7 +98,7 @@ class LoginScreen: UIViewController, loginDelegate {
                     print(myReleaseYear)
                     print(self.acccountChild)
                     print("Your Data is right")
-                    var third = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+//                    var third = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
                     //third.myDelegate = self
                     self.presentViewController(self.appDele.centerContainer!, animated: true, completion: nil)
                 }else{

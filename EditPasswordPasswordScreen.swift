@@ -10,6 +10,10 @@ import UIKit
 
 class EditPasswordPasswordScreen: UIViewController {
 
+    //An Object From The App Delegate
+    
+     var appDele: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    
     @IBOutlet var oldPasswordTextField:UITextField!
     
     
@@ -80,17 +84,36 @@ class EditPasswordPasswordScreen: UIViewController {
         print(confirmPasswordTextField.text!)
         print("Your Data Has Been Updated")
         
-        var login = storyboard?.instantiateViewControllerWithIdentifier("LoginScreen") as! LoginScreen
+         var loginScreen = storyboard?.instantiateViewControllerWithIdentifier("myLoginScreen") as! LoginScreen
         
-        self.navigationController?.pushViewController(login, animated: true)
+        var myNav = appDele.centerContainer?.centerViewController as! UINavigationController
+        
+        //self.dismissViewControllerAnimated(true, completion: nil)
+        //self.presentViewController(loginScreen, animated: true, completion: nil)
+        
+        
+        self.navigationController?.pushViewController(loginScreen, animated: true)
+        
+        //self.navigationController?.pushViewController(loginScreen, animated: true)
+        
+        //self.presentViewController(view, animated: true, completion: nil)
+     
     }
     
     
     @IBAction func declineButton(sender: AnyObject) {
         
-        var login = storyboard?.instantiateViewControllerWithIdentifier("LoginScreen") as! LoginScreen
+//       var loginScreen = storyboard?.instantiateViewControllerWithIdentifier("LoginScreen") as! LoginScreen
+//        
+//        var myNav = appDele.centerContainer?.centerViewController as! UINavigationController
+//        
+//        myNav.pushViewController(loginScreen, animated: true)
         
-        self.navigationController?.pushViewController(login, animated: true)
+    self.dismissViewControllerAnimated(true, completion: nil)
+        
+     
+        
+       
     }
     
     

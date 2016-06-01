@@ -87,7 +87,7 @@ class EditUserProfileController: UIViewController,UIPickerViewDelegate,UIPickerV
     //Select Image Button
 
     @IBAction func chooseImageButton(sender: AnyObject) {
-        //Image Picker Controller
+//        //Image Picker Controller
         var imagePicker = UIImagePickerController()
         imagePicker.delegate = self
         imagePicker.sourceType = .PhotoLibrary

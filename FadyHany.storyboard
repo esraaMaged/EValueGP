@@ -174,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Slq-uc-3qp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1778" y="-401"/>
+            <point key="canvasLocation" x="1782" y="-369"/>
         </scene>
         <!--Child User Screen-->
         <scene sceneID="ohN-PD-ebD">
@@ -307,7 +307,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4q4-zz-gQJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1088" y="-401"/>
+            <point key="canvasLocation" x="1042" y="-379"/>
         </scene>
         <!--Password Validation Screen-->
         <scene sceneID="0VP-8N-hEe">
@@ -389,7 +389,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kyu-pz-jCH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1433" y="-401"/>
+            <point key="canvasLocation" x="1435" y="-379"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ixi-wB-xlR">
@@ -995,24 +995,6 @@
             <point key="canvasLocation" x="1842" y="880"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="OfC-7A-jRk">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dQI-Zk-Si4" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8aN-eO-dbj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Rqe-6B-ccU" kind="relationship" relationship="rootViewController" id="xmZ-Mq-J87"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NXZ-9e-WJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="294" y="250"/>
-        </scene>
-        <!--Navigation Controller-->
         <scene sceneID="AV7-EE-tnQ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NzG-9l-mj5" sceneMemberID="viewController">
@@ -1033,7 +1015,5 @@
     </scenes>
     <resources>
         <image name="evalue_logo" width="1860" height="894"/>
-        <image name="false_logo" width="225" height="225"/>
-        <image name="true_sign" width="228" height="221"/>
     </resources>
 </document>

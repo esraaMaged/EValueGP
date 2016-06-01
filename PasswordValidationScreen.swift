@@ -10,6 +10,9 @@ import UIKit
 
 class PasswordValidationScreen: UIViewController {
 
+    let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+    
+    
     @IBOutlet var myErrorLabel: UILabel!
     @IBOutlet var animateActivator: UIActivityIndicatorView!
     
@@ -39,9 +42,11 @@ class PasswordValidationScreen: UIViewController {
             print("Re-Enter The Password is:\(self.reEnterPasswordTextField.text!)")
             print("The User Email is:\(userEmail)")
             
-            let loginScreen = storyboard?.instantiateViewControllerWithIdentifier("LoginScreen") as! LoginScreen
+            var loginScreen = mainStoryboard.instantiateViewControllerWithIdentifier("myLoginScreen") as! LoginScreen
             
             self.navigationController?.pushViewController(loginScreen, animated: true)
+            
+            
             
             // print(self.newPassword)
             print("Your Password is Updated")

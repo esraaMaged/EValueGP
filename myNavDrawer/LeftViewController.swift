@@ -14,7 +14,7 @@ class LeftViewController: UIViewController , UITableViewDataSource, UITableViewD
     @IBOutlet weak var profileIMV: UIImageView!
     
     
-    var menuItems:[String] = ["Profile","Main Tasks","Perant Tasks","Team Tasks","Show Statistics", "About","Logout"];
+    var menuItems:[String] = ["Profile","Main Tasks","Parent Tasks","Team Tasks","Show Statistics", "About","Logout"];
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,15 +56,22 @@ class LeftViewController: UIViewController , UITableViewDataSource, UITableViewD
         {
             
         case 0:
+//            
+//            var centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+//            
+//            var centerNavController = UINavigationController(rootViewController: centerViewController)
+//            
+//            var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+//            
+//            appDelegate.centerContainer!.centerViewController = centerNavController
+//            appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
             
-            var centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
             
-            var centerNavController = UINavigationController(rootViewController: centerViewController)
+            var userProfile = storyboard?.instantiateViewControllerWithIdentifier("myUserProfileScreen") as! UserProfileScreen
+           
             
-            var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+            self.presentViewController(userProfile, animated: true, completion: nil)
             
-            appDelegate.centerContainer!.centerViewController = centerNavController
-            appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
             
             break;
             
@@ -84,7 +91,7 @@ class LeftViewController: UIViewController , UITableViewDataSource, UITableViewD
             
         case 6:
             
-            let loginScreen = storyboard?.instantiateViewControllerWithIdentifier("LoginScreen") as! LoginScreen
+            let loginScreen = storyboard?.instantiateViewControllerWithIdentifier("myLoginScreen") as! LoginScreen
             
             self.presentViewController(loginScreen, animated: true, completion: nil)
             

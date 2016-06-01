@@ -29,9 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var leftDrawer =  mainStoryBoard.instantiateViewControllerWithIdentifier("LeftViewController") as! LeftViewController
         var center = mainStoryBoard.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
 
-        
-
-        
+    
         leftDrawer.title = "Evalue"
         
         
@@ -43,9 +41,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         centerContainer!.openDrawerGestureModeMask = MMOpenDrawerGestureMode.PanningCenterView;
         centerContainer!.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.PanningCenterView;
-        
-
-        
         
 //        window!.rootViewController = centerContainer
 //        window!.makeKeyAndVisible()
